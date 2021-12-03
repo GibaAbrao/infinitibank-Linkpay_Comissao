@@ -1,0 +1,20 @@
+//MO193-194.TXT ANA00193 TO ANA00194
+ContratoPremiacao		NFI		new file
+ContratoPremiacao		FIC-	ContratoPremiacao	ContratoPremiacao file deleted
+Constraint_ContratoPremiacao_ArquivoBancarioRetornoDados		DEL	ContratoPremiacao (IDcontratoPremiacao) and ArqBancarioRetDados (IDcontratoPremiacao)	Link deleted between ContratoPremiacao (IDcontratoPremiacao) and ArqBancarioRetDados (IDcontratoPremiacao)
+Constraint_ContratoPremiacao_ContratoPremiacaoPremiados		DEL	ContratoPremiacao (IDcontratoPremiacao) and CttPrcaoPremiados (IDcontratoPremiacao)	Link deleted between ContratoPremiacao (IDcontratoPremiacao) and CttPrcaoPremiados (IDcontratoPremiacao)
+Constraint_Empresa_ContratoPremiacao		DEL	CrmEmpresa (IDempresa) and ContratoPremiacao (IDempresa)	Link deleted between CrmEmpresa (IDempresa) and ContratoPremiacao (IDempresa)
+Constraint_BancoCartao_ContratoPremiacao		DEL	BcoCartao (IDbancoCartao) and ContratoPremiacao (IDbancoCartao)	Link deleted between BcoCartao (IDbancoCartao) and ContratoPremiacao (IDbancoCartao)
+Constraint_CrmCliente_ContratoPremiacao		DEL	CrmCliente (IDcliente) and ContratoPremiacao (IDcliente)	Link deleted between CrmCliente (IDcliente) and ContratoPremiacao (IDcliente)
+Constraint_Contrato_ContratoPremiacao		DEL	CttContrato (IDcontrato) and ContratoPremiacao (IDcontrato)	Link deleted between CttContrato (IDcontrato) and ContratoPremiacao (IDcontrato)
+Constraint_CauUsuario_ContratoPremiacao		DEL	CauUsuario (IDusuario) and ContratoPremiacao (IDusuarioComissao)	Link deleted between CauUsuario (IDusuario) and ContratoPremiacao (IDusuarioComissao)
+Constraint_ContratoPremiacao_HelpDeskChamado		DEL	ContratoPremiacao (IDcontratoPremiacao) and HdkChamado (IDcontratoPremiacao)	Link deleted between ContratoPremiacao (IDcontratoPremiacao) and HdkChamado (IDcontratoPremiacao)
+Constraint_CttPremiacao_CttPrcaoPrdosHist		DEL	ContratoPremiacao (IDcontratoPremiacao) and CttPrcaoPrdosHist (IDcontratoPremiacao)	Link deleted between ContratoPremiacao (IDcontratoPremiacao) and CttPrcaoPrdosHist (IDcontratoPremiacao)
+Constraint_CttPrcaoStatus_CttPremiacao		DEL	CttPrcaoStatus (IDcontratoPremiacaoStatus) and ContratoPremiacao (IDcontratoPremiacaoStatus)	Link deleted between CttPrcaoStatus (IDcontratoPremiacaoStatus) and ContratoPremiacao (IDcontratoPremiacaoStatus)
+Constraint_CttPremiacao_FinMov		DEL	ContratoPremiacao (IDcontratoPremiacao) and FinMov (idContratoPremiacao)	Link deleted between ContratoPremiacao (IDcontratoPremiacao) and FinMov (idContratoPremiacao)
+Constraint_CttPremiacao_CdpCartaoEstq		DEL	ContratoPremiacao (IDcontratoPremiacao) and CdpCartaoEstq (IdContratoPremiacao)	Link deleted between ContratoPremiacao (IDcontratoPremiacao) and CdpCartaoEstq (IdContratoPremiacao)
+Constraint_CttPremiacao_CdpMov		DEL	ContratoPremiacao (IDcontratoPremiacao) and CdpMovNF (idProtocoloMov)	Link deleted between ContratoPremiacao (IDcontratoPremiacao) and CdpMovNF (idProtocoloMov)
+Constraint_CttPremiacao_FinNF		DEL	ContratoPremiacao (IDcontratoPremiacao) and FinNF (idProtocoloNF)	Link deleted between ContratoPremiacao (IDcontratoPremiacao) and FinNF (idProtocoloNF)
+Constraint_CttPremiacao_ContratoPremiacaoConfFin		DEL	ContratoPremiacao (IDcontratoPremiacao) and ContratoPremiacaoConfFin (IDcontratoPremiacao)	Link deleted between ContratoPremiacao (IDcontratoPremiacao) and ContratoPremiacaoConfFin (IDcontratoPremiacao)
+Constraint_CttPremiacao_ContratoPremiacaoConfFin_Log		DEL	ContratoPremiacao (IDcontratoPremiacao) and ContratoPremiacaoConfFin_Log (IDcontratoPremiacao)	Link deleted between ContratoPremiacao (IDcontratoPremiacao) and ContratoPremiacaoConfFin_Log (IDcontratoPremiacao)
+ContratoPremiacao		FRN		
